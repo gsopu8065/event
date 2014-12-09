@@ -1,0 +1,18 @@
+<div class="container homePage">
+ 
+<br/><br/>
+
+<div class="panel panel-default divPanel" ng-repeat="event in result">
+  <div class="panel-heading">{{event.date}}</div>
+  <div class="panel-body">
+    
+  	<div class="list-group divRow" ng-repeat="eachEvent in event.events">
+  		<a href="#" class="list-group-item">
+    		<h4 class="list-group-item-heading">{{eachEvent.eventName}}</h4>
+    		<p class="list-group-item-text">{{eachEvent.description}}</p>
+  		</a>
+	</div>
+
+  </div>
+</div>
+</div>

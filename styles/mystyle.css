@@ -1,0 +1,20 @@
+.homePage .divRow{
+	margin-bottom: 0px;
+}
+
+.homePage .divRow .list-group-item-heading{
+	color: #3C5D83;
+}
+
+.homePage .divRow .list-group-item{
+	height: 100px;
+}
+
+.homePage .divPanel{
+	border: 0px;	
+}
+
+.homePage .divPanel .panel-heading{
+	background-color: #F0AF37;
+	font-weight: bold;
+}
